@@ -55,4 +55,11 @@ public class Libro {
     public void setEditore(String editore) {
         this.editore = editore;
     }
+    
+    
+    @Override
+    public String toString() {
+        return "Titolo: " + getTitolo() + ", Autore: " + getAutore() + ", Numero pagine: " + getEditore() + ", Editore: " + getEditore();
+    }
+
 }

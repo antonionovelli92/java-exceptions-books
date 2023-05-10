@@ -1,4 +1,4 @@
-package java.books;
+package books;
 
 public class Libro {
     private String titolo;
